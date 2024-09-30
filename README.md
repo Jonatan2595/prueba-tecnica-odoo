@@ -69,3 +69,19 @@ python odoo-bin -c odoo.conf
 ```
 http://localhost:8069
 ```
+
+# Credenciales de acceso
+
+1. Usuario odoo administrador
+```
+Usuario: jm25prueba@gmail.com
+
+Contraseña: JMprueba25.
+```
+
+2. Usuario de Base de Datos PostgreSQL
+```
+Usuario: jm25prueba
+
+Contraseña: JMprueba25.
+```
