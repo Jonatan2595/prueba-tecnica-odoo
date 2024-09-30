@@ -12,27 +12,33 @@
 
 
 4. Clonar el repositorio de Odoo: Abre la terminal de Git Bash y ejecuta el siguiente comando para clonar la versión de Odoo que desees (por ejemplo, Odoo 15):
-bash
-
 ```
 git clone https://www.github.com/odoo/odoo --depth 1 --branch 15.0 --single-branch
 ```
 
 
 5. Instalar dependencias: Navega a la carpeta de Odoo que acabas de clonar y ejecuta el siguiente comando para instalar las dependencias necesarias:
-bash
-   pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 
 6. Configurar Odoo: Crea un archivo de configuración para Odoo. Puedes copiar el archivo de ejemplo que se encuentra en la carpeta de Odoo y renombrarlo a
+```
 odoo.conf
-. Asegúrate de configurar los parámetros de conexión a la base de datos y otros ajustes necesarios.
+```
+Asegúrate de configurar los parámetros de conexión a la base de datos y otros ajustes necesarios.
 
 
 7. Iniciar Odoo: Finalmente, puedes iniciar Odoo ejecutando el siguiente comando en la terminal:
-bash
-   python odoo-bin -c odoo.conf
+```
+python odoo-bin -c odoo.conf
+```
 
 
 8. Acceder a Odoo: Abre tu navegador y ve a
-http://localhost:8069`. Deberías ver la pantalla de inicio de Odoo.
+```
+http://localhost:8069
+```
+
+Deberías ver la pantalla de inicio de Odoo.
