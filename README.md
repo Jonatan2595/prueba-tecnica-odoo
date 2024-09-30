@@ -13,7 +13,10 @@
 
 4. Clonar el repositorio de Odoo: Abre la terminal de Git Bash y ejecuta el siguiente comando para clonar la versión de Odoo que desees (por ejemplo, Odoo 15):
 bash
-   git clone https://www.github.com/odoo/odoo --depth 1 --branch 15.0 --single-branch
+
+```
+git clone https://www.github.com/odoo/odoo --depth 1 --branch 15.0 --single-branch
+```
 
 
 5. Instalar dependencias: Navega a la carpeta de Odoo que acabas de clonar y ejecuta el siguiente comando para instalar las dependencias necesarias:
