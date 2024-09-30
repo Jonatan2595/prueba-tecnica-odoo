@@ -35,6 +35,11 @@ Asegúrate de configurar los parámetros de conexión a la base de datos y otros
 python odoo-bin -c odoo.conf
 ```
 
+NOTA: En caso de dar error por falta de dependencias, ejecutar el siguiente comando:
+```
+pip install setuptools
+``` 
+
 
 8. Acceder a Odoo: Abre tu navegador y ve a
 ```
